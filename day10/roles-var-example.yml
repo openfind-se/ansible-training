@@ -1,0 +1,10 @@
+- name: Example playbook
+  hosts: localhost
+  vars:
+    my_var: "我是 Playbook 中的變數"
+
+  roles:
+    - role: my_role
+      vars:
+        my_var: "我是 roles 額外定義的變數"
+
