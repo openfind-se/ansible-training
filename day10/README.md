@@ -36,7 +36,7 @@ my_role/
 角色 **`my_role`** 的 **`vars/main.yml`** 內容：
 
 ```yaml
-my_var: "我是 my_role 中 **vars/main.yml** 的變數"
+my_var: "我是 my_role 中 vars/main.yml 的變數"
 ```
 
 角色 **`my_role`** 的 **`tasks/main.yml`** 內容：
