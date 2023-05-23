@@ -1,3 +1,20 @@
+### 腳本規劃，預計使用三個 Roles
+
+1. 安裝 MG
+    1. 前置設定
+    2. 安裝產品
+2. 更新 Patch 到最新版
+    1. 上傳 mg patch all tool
+    2. 上傳 patch 
+3. 安裝 Sophos + CXmail
+    1. 上傳最新版本 Sophos
+    2. 啟用 CXmail
+    
+
+## 補充資料：
+
+[Tags — Ansible Documentation](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_tags.html)
+
 ### 相同變數名稱在 Roles, Role_var, 與 Playbooks 的優先使用順序
 
 [Using Variables — Ansible Documentation](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#understanding-variable-precedence)
